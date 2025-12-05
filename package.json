@@ -1,0 +1,17 @@
+{
+  "name": "vivasortepremios",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "serve -s .",
+    "start": "serve -s .",
+    "build": "echo 'Build completo'"
+  },
+  "dependencies": {
+    "serve": "^14.0.0",
+    "axios": "^1.6.0",
+    "crypto": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

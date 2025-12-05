@@ -1,0 +1,28 @@
+# api/.htaccess
+Options -Indexes
+DirectoryIndex index.php
+
+# Permitir requisições CORS
+Header set Access-Control-Allow-Origin "*"
+Header set Access-Control-Allow-Methods "POST, GET, OPTIONS"
+Header set Access-Control-Allow-Headers "Content-Type, Authorization"
+
+# Proteger arquivos sensíveis
+<FilesMatch "\.(log|txt)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Redirecionar para arquivo específico
+RewriteEngine On
+
+# Se for webhook
+RewriteCond %{REQUEST_URI} webhook.php
+RewriteRule ^ - [L]
+
+# Se for allowpay
+RewriteCond %{REQUEST_URI} allowpay.php
+RewriteRule ^ - [L]
+
+# Qualquer outra coisa retorna 404
+RewriteRule ^ - [R=404,L]
