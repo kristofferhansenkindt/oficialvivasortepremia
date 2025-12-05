@@ -1,1 +1,16 @@
-echo {"name":"vivasortepremios","version":"1.0.0","scripts":{"dev":"serve -s .","start":"serve -s .","build":""},"dependencies":{"serve":"^14.0.0","axios":"^1.6.0"},"engines":{"node":">=18"}} > package.json
+{
+  "name": "vivasortepremios",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "serve -s .",
+    "start": "serve -s .",
+    "build": ""
+  },
+  "dependencies": {
+    "serve": "^14.0.0",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
