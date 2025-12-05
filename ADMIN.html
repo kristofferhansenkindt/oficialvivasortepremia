@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Admin - Viva Sorte</title>
+    <link href="css/admin.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="admin-container">
+        <!-- HEADER -->
+        <header class="admin-header">
+            <div class="logo-admin">
+                <img src="images/logoviva.png" alt="Viva Sorte">
+                <h1>Painel Administrativo</h1>
+            </div>
+            <div class="admin-info">
+                <div class="usuario">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Administrador</span>
+                </div>
+                <button class="btn-sair" onclick="sair()">
+                    <i class="fas fa-sign-out-alt"></i> Sair
+                </button>
+            </div>
+        </header>
+        
+        <!-- STATS -->
+        <div class="admin-stats">
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="stat-info">
+                    <h3 id="totalClientes">0</h3>
+                    <p>Total de Clientes</p>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="stat-info">
+                    <h3 id="totalVendas">0</h3>
+                    <p>Vendas Realizadas</p>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-money-bill-wave"></i>
+                </div>
+                <div class="stat-info">
+                    <h3 id="totalArrecadado">R$ 0,00</h3>
+                    <p>Total Arrecadado</p>
+                </div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <div class="stat-info">
+                    <h3 id="totalPremios">0</h3>
+                    <p>Prêmios Entregues</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FILTROS -->
+        <div class="admin-filtros">
+            <div class="filtro-group">
+                <label>Data Início:</label>
+                <input type="date" id="dataInicio" class="filtro-input">
+            </div>
+            
+            <div class="filtro-group">
+                <label>Data Fim:</label>
+                <input type="date" id="dataFim" class="filtro-input">
+            </div>
+            
+            <div class="filtro-group">
+                <label>Status:</label>
+                <select id="filtroStatus" class="filtro-select">
+                    <option value="">Todos</option>
+                    <option value="pending">Pendente</option>
+                    <option value="paid">Pago</option>
+                    <option value="failed">Falhou</option>
+                </select>
+            </div>
+            
+            <button class="btn-filtrar" onclick="filtrarTransacoes()">
+                <i class="fas fa-filter"></i> Filtrar
+            </button>
+            
+            <button class="btn-exportar" onclick="exportarExcel()">
+                <i class="fas fa-file-excel"></i> Exportar Excel
+            </button>
+        </div>
+        
+        <!-- TABELA DE TRANSAÇÕES -->
+        <div class="admin-tabela-container">
+            <h2>Transações Recentes</h2>
+            
+            <div class="tabela-acoes">
+                <div class="busca">
+                    <input type="text" id="buscaTransacoes" placeholder="Buscar por CPF, telefone..." 
+                           onkeyup="buscarTransacoes()">
+                    <i class="fas fa-search"></i>
+                </div>
+                
+                <div class="acoes-botoes">
+                    <button class="btn-atualizar" onclick="carregarTransacoes()">
+                        <i class="fas fa-sync-alt"></i> Atualizar
+                    </button>
+                    <button class="btn-limpar" onclick="limparFiltros()">
+                        <i class="fas fa-times"></i> Limpar Filtros
+                    </button>
+                </div>
+            </div>
+            
+            <div class="table-responsive">
+                <table class="table-transacoes">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Data</th>
+                            <th>CPF</th>
+                            <th>Telefone</th>
+                            <th>Quantidade</th>
+                            <th>Valor</th>
+                            <th>Status</th>
+                            <th>Prêmio</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabelaTransacoes">
+                        <!-- Dados carregados via JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="paginacao">
+                <button id="btnAnterior" onclick="paginaAnterior()" disabled>
+                    <i class="fas fa-chevron-left"></i> Anterior
+                </button>
+                <span id="infoPagina">Página 1 de 1</span>
+                <button id="btnProximo" onclick="paginaProxima()" disabled>
+                    Próxima <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- DETALHES DA TRANSAÇÃO (MODAL) -->
+        <div id="modalDetalhes" class="modal-detalhes">
+            <div class="modal-conteudo">
+                <div class="modal-header">
+                    <h2>Detalhes da Transação</h2>
+                    <button class="btn-fechar-modal" onclick="fecharDetalhes()">×</button>
+                </div>
+                <div class="modal-body" id="detalhesTransacao">
+                    <!-- Detalhes carregados dinamicamente -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/admin.js"></script>
+</body>
+</html>

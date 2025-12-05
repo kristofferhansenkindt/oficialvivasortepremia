@@ -1,0 +1,511 @@
+/* MODAL DE PAGAMENTO */
+.modal-pagamento {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 10000;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.modal-conteudo {
+    background: white;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 450px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+/* HEADER DO MODAL */
+.modal-header {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    text-align: center;
+}
+
+.btn-fechar {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #999;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.btn-fechar:hover {
+    background: #f5f5f5;
+}
+
+.logo-modal {
+    max-width: 160px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* PROGRESSO DAS ETAPAS */
+.progresso-etapas {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+.etapa-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    position: relative;
+}
+
+.etapa-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: -50%;
+    width: 100%;
+    height: 2px;
+    background: #e0e0e0;
+    z-index: 1;
+}
+
+.etapa-item.completada:not(:last-child)::after {
+    background: #28a745;
+}
+
+.etapa-item.ativa:not(:last-child)::after {
+    background: linear-gradient(to right, #2f4eb5, #e0e0e0);
+}
+
+.etapa-numero {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+.etapa-item.ativa .etapa-numero {
+    background: #2f4eb5;
+    color: white;
+}
+
+.etapa-item.completada .etapa-numero {
+    background: #28a745;
+    color: white;
+}
+
+.etapa-nome {
+    font-size: 11px;
+    color: #999;
+    text-align: center;
+    font-weight: 600;
+}
+
+.etapa-item.ativa .etapa-nome,
+.etapa-item.completada .etapa-nome {
+    color: #2f4eb5;
+}
+
+/* CORPO DO MODAL */
+.modal-body {
+    padding: 20px;
+}
+
+.modal-body h2 {
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.modal-body p {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* FORMULÁRIOS */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: #2f4eb5;
+    outline: none;
+}
+
+.exemplo {
+    color: #888;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.mensagem-erro {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+}
+
+.mensagem-sucesso {
+    background: #d4edda;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-left: 4px solid #28a745;
+    color: #155724;
+    font-size: 13px;
+}
+
+.mensagem-sucesso i {
+    color: #28a745;
+    margin-right: 8px;
+}
+
+/* RESUMOS */
+.resumo-compra {
+    background: #2f4eb5;
+    color: white;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.resumo-pagamento {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.resumo-pagamento h3 {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.detalhes-pagamento {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    color: #666;
+    font-size: 14px;
+}
+
+.total-pagamento {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2f4eb5;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+/* BOTÕES */
+.btn-principal {
+    width: 100%;
+    background: linear-gradient(to right, #2f4eb5, #3949ab);
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 10px;
+}
+
+.btn-principal:hover {
+    background: linear-gradient(to right, #263a9c, #2f3d82);
+}
+
+.btn-principal:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+}
+
+.btn-secundario {
+    width: 100%;
+    background: #f8f9fa;
+    color: #2f4eb5;
+    border: 2px solid #2f4eb5;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 10px;
+}
+
+.btn-secundario:hover {
+    background: #2f4eb5;
+    color: white;
+}
+
+/* ÁREA DO PIX */
+.qrcode-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+}
+
+.qrcode-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.codigo-pix {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.input-copiar {
+    display: flex;
+    margin-top: 10px;
+}
+
+.input-copiar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px 0 0 6px;
+    font-size: 12px;
+    background: white;
+}
+
+.input-copiar button {
+    background: #2f4eb5;
+    color: white;
+    border: none;
+    padding: 0 15px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.instrucao {
+    color: #666;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* CONFIRMAÇÃO */
+.confirmacao-sucesso {
+    background: #d4edda;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-left: 5px solid #28a745;
+}
+
+.icone-confirmacao {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.premio-anuncio {
+    background: #2f4eb5;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.texto-pequeno {
+    font-size: 13px;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+.btn-premio {
+    width: 100%;
+    background: linear-gradient(to right, #ffc107, #ff9800);
+    color: black;
+    border: none;
+    padding: 18px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-premio:hover {
+    background: linear-gradient(to right, #ff9800, #f57c00);
+}
+
+/* PRÊMIO FINAL */
+.premio-ganho {
+    background: linear-gradient(to right, #ffc107, #ff9800);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.trofeu {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.valor-premio {
+    font-size: 42px;
+    font-weight: 900;
+    margin: 10px 0;
+    color: #000;
+}
+
+.subtitulo-premio {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.passos-premio {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.passos-premio h3 {
+    color: #2f4eb5;
+    margin-bottom: 15px;
+}
+
+.passos-premio ul {
+    list-style: none;
+    padding: 0;
+}
+
+.passos-premio li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.passos-premio li span {
+    color: #28a745;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.agradecimento {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btn-finalizar {
+    width: 100%;
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-finalizar:hover {
+    background: #218838;
+}
+
+/* ANIMAÇÕES */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.etapa {
+    display: none;
+    animation: fadeIn 0.3s ease;
+}
+
+.etapa.ativa {
+    display: block;
+}
+
+/* RESPONSIVO */
+@media (max-width: 480px) {
+    .modal-conteudo {
+        margin: 10px;
+        max-width: 100%;
+    }
+    
+    .progresso-etapas {
+        padding: 0 10px;
+    }
+    
+    .etapa-nome {
+        font-size: 10px;
+    }
+    
+    .valor-premio {
+        font-size: 32px;
+    }
+}

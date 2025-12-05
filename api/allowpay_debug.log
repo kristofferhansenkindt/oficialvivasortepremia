@@ -1,0 +1,2623 @@
+2025-12-04 19:23:47 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764876227-feb8cf30",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 19:23:50 - HTTP Code: 200
+Response: {"id":"46d454aa-63e7-4164-814d-b1f0c11b1725","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T16:23:48-03:00","updatedAt":"2025-12-04T16:23:48-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"46a71095-b759-4c8d-8a74-da4cf30680ce","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T16:23:48.686305","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 42","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/ffc04db6-b9a5-42ea-8a44-699223b3334b5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***630410AA","expirationDate":"2025-12-04T16:43:48-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 42","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 19:27:24 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764876444-b2253ef2",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 19:27:27 - HTTP Code: 200
+Response: {"id":"d7949ecd-bd7b-4c94-939c-01f31e934134","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T16:27:25-03:00","updatedAt":"2025-12-04T16:27:25-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"d89efd60-d666-4c03-9328-968fb7f699fb","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T16:27:25.783948","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 10","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/81eaa90d-999e-4fde-9eb5-c7607d683f715204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***630491F2","expirationDate":"2025-12-04T16:47:25-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 10","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 19:31:17 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11967156424",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764876677-757a8fe3",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 19:31:20 - HTTP Code: 200
+Response: {"id":"2ed60345-03cc-4222-b84c-abf9e7301f91","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T16:31:18-03:00","updatedAt":"2025-12-04T16:31:18-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"adb39f3c-0016-48bf-bfb4-6a94a5e2871c","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11967156424","birthdate":null,"createdAt":"2025-12-04T16:31:18.77562","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 5","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/38247a55-954b-46f6-8658-67a1c2b809785204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63045AA6","expirationDate":"2025-12-04T16:51:18-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 5","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 19:32:32 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764876752-940c6d36",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 19:32:36 - HTTP Code: 200
+Response: {"id":"d686147e-aa96-40af-9ebf-daf0dd4a50e1","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T16:32:33-03:00","updatedAt":"2025-12-04T16:32:33-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"c54fc569-ab7f-4632-bad0-faf88a452c3a","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T16:32:33.737228","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 31","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/6b2713da-79d0-46f0-bd21-034ae6c2d18e5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***630404F3","expirationDate":"2025-12-04T16:52:33-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 31","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 19:35:17 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11965255255",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764876917-06da3b6a",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 19:35:20 - HTTP Code: 200
+Response: {"id":"7574deec-82a6-41e4-b697-0ef4bc2f58ce","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T16:35:19-03:00","updatedAt":"2025-12-04T16:35:19-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"56a48c3c-d3f0-4ae5-8577-11920721cf63","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11965255255","birthdate":null,"createdAt":"2025-12-04T16:35:19.042021","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 494","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/a13ecc31-552e-426a-9fea-493b5e68f7dc5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304082D","expirationDate":"2025-12-04T16:55:19-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 494","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 19:41:45 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764877305-2605cc48",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 19:41:48 - HTTP Code: 200
+Response: {"id":"497ccafe-8d35-40a9-8a1f-1ea85f53a5ec","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T16:41:46-03:00","updatedAt":"2025-12-04T16:41:46-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"303ea824-61da-4896-99bb-8dccb910d2a8","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T16:41:46.816455","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 8","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/b1cea0f0-0be8-46da-aa92-c03c391970675204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304EB5C","expirationDate":"2025-12-04T17:01:46-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 8","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 19:43:55 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764877435-bdfdf9e9",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 19:43:58 - HTTP Code: 200
+Response: {"id":"90e57b55-1513-484b-974b-afd60ddf059d","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T16:43:56-03:00","updatedAt":"2025-12-04T16:43:56-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"efadf1f9-b112-4858-b4da-9026da87960c","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T16:43:56.658019","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 43","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/5068cbd3-58b9-4e02-b824-065ca343b74d5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***630408E8","expirationDate":"2025-12-04T17:03:56-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 43","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 19:48:09 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764877689-09e0b270",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 19:48:12 - HTTP Code: 200
+Response: {"id":"e784727e-10d8-47e4-9fb1-47659bd0f9d1","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T16:48:11-03:00","updatedAt":"2025-12-04T16:48:11-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"e4cb784f-1958-4837-ad68-122c1372c74a","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T16:48:11.14652","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 529","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/4f3af64d-532e-4c71-8b65-863c07fe50b25204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63048504","expirationDate":"2025-12-04T17:08:11-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 529","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 20:09:55 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764878995-1c8cd3a9",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 20:09:59 - HTTP Code: 200
+Response: {"id":"35ce7ca0-b4e6-4e43-9dc8-3ee1fba4e380","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T17:09:56-03:00","updatedAt":"2025-12-04T17:09:56-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"d467e167-777e-48f8-80c7-61fe69cd3ff0","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T17:09:56.532326","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 3","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/732dcc14-39b1-463e-afc7-53349b0c703e5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63040A62","expirationDate":"2025-12-04T17:29:56-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 3","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 20:11:15 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764879075-4e6124b2",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 20:11:18 - HTTP Code: 200
+Response: {"id":"260f50db-4efe-48cc-aa07-7a4705eebf91","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T17:11:16-03:00","updatedAt":"2025-12-04T17:11:16-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"022d2f33-3f77-4209-b327-eec406804d76","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T17:11:16.161807","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 7","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/71982b28-eb47-40a9-89a0-a5e240e9607a5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63041009","expirationDate":"2025-12-04T17:31:16-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 7","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 20:12:08 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "31961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764879128-471d62c6",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 20:12:10 - HTTP Code: 200
+Response: {"id":"6dfba556-6c85-448c-aaa1-20a151c4626f","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T17:12:09-03:00","updatedAt":"2025-12-04T17:12:09-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"18c674cc-4326-4d5e-a488-a93220cf3cff","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"31961564240","birthdate":null,"createdAt":"2025-12-04T17:12:09.15746","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 395","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/ae54e805-6e01-4e6e-8f07-34c5ac6b61855204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63042D12","expirationDate":"2025-12-04T17:32:09-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 395","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 20:13:55 - Payload: {
+    "customer": {
+        "name": "Cliente 237***",
+        "email": "23723622@vivasorte.temp.com",
+        "phone": "19946651555",
+        "document": {
+            "type": "CPF",
+            "number": "23723622836"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-237236"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764879235-9f0e5ab7",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 20:13:59 - HTTP Code: 200
+Response: {"id":"c21accef-1cff-4163-8644-05e35b02b04d","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T17:13:56-03:00","updatedAt":"2025-12-04T17:13:56-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"9df259f2-8343-494b-8f32-75fceea1e51a","name":"Cliente 237***","email":"23723622@vivasorte.temp.com","phone":"19946651555","birthdate":null,"createdAt":"2025-12-04T17:13:56.727254","document":{"number":"23723622836","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 81","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/724ee9a4-feee-4f88-937f-8e218991d25d5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304D00F","expirationDate":"2025-12-04T17:33:56-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 81","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 20:16:51 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764879411-ef71ae57",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 20:16:54 - HTTP Code: 200
+Response: {"id":"b159776f-31f1-420f-83a4-560c81fc01cf","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T17:16:52-03:00","updatedAt":"2025-12-04T17:16:52-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"bc710f80-1f0e-477c-95b7-26fec24ee809","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T17:16:52.411386","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 563","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/84f30f8f-a5c1-4274-97d8-578104117e295204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63046D54","expirationDate":"2025-12-04T17:36:52-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 563","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 20:19:03 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764879543-d79bb659",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 20:19:05 - HTTP Code: 200
+Response: {"id":"c57cfd0f-935e-4d9d-a38d-c11ea39bb141","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T17:19:03-03:00","updatedAt":"2025-12-04T17:19:03-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"1f3df7ab-6fc5-41c0-b7c7-8ca8d27d973d","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T17:19:03.84097","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 48","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/e4de22b0-18b0-4f2a-ad24-3d33e1377ce05204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***630422DF","expirationDate":"2025-12-04T17:39:03-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 48","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 20:22:15 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764879735-6482eaa8",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 20:22:18 - HTTP Code: 200
+Response: {"id":"58f0aeaa-37ef-4796-af90-b72d75c49bfd","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T17:22:16-03:00","updatedAt":"2025-12-04T17:22:16-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"d3eb68d9-ab8f-461a-8ef3-5d8b7d68215e","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T17:22:16.549445","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 50","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/8ff8ca0c-564a-4f16-80a7-036f1ff816535204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63046FB5","expirationDate":"2025-12-04T17:42:16-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 50","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 20:41:05 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11955254452",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764880865-5114ab46",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 20:41:09 - HTTP Code: 200
+Response: {"id":"db9214b9-3521-4c51-83ca-e52b75809704","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T17:41:06-03:00","updatedAt":"2025-12-04T17:41:06-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"ad0d8b64-dddf-4d61-92f4-e6feff484227","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11955254452","birthdate":null,"createdAt":"2025-12-04T17:41:06.470741","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 84","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/d0a5e2b7-db8b-4984-a6a1-275c5193acdd5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304BB6D","expirationDate":"2025-12-04T18:01:06-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 84","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 20:44:19 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764881059-cf65a5a6",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 20:44:22 - HTTP Code: 200
+Response: {"id":"1a8e2612-3ffe-4f4f-abf0-89cb574e991c","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T17:44:20-03:00","updatedAt":"2025-12-04T17:44:20-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"1313f78b-af61-4c84-9b94-06d640c7a06f","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T17:44:20.606142","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 1","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/5749d191-3fc7-43df-9e77-0bf93ef1ee4d5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304364E","expirationDate":"2025-12-04T18:04:20-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 1","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 20:47:40 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764881260-50b7d6d7",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 20:47:42 - HTTP Code: 200
+Response: {"id":"f4c10249-0b41-40d3-978b-8d461b162cf5","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T17:47:40-03:00","updatedAt":"2025-12-04T17:47:40-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"f38cc61b-35d2-4724-9b88-d5024048b1a9","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T17:47:40.852097","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 3","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/d1960552-d256-4b43-ab55-c81de5bb555c5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63040E39","expirationDate":"2025-12-04T18:07:40-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 3","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 20:54:59 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764881699-d77a332f",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 20:55:01 - HTTP Code: 200
+Response: {"id":"75eda0fd-128c-4c88-aea0-a5d550f99328","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T17:54:59-03:00","updatedAt":"2025-12-04T17:54:59-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"8234e622-aa14-4730-971d-abd2d86c8514","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T17:54:59.709706","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 843","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/f1095423-f120-4dee-af45-48e71a62962f5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304AB40","expirationDate":"2025-12-04T18:14:59-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 843","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 20:55:32 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764881732-e32dc57c",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 20:55:34 - HTTP Code: 200
+Response: {"id":"543cee43-f9c5-4072-af8f-bbb40ed140f3","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T17:55:32-03:00","updatedAt":"2025-12-04T17:55:32-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"0568dd11-f744-408d-8fc4-e8bde47baf8b","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T17:55:32.785795","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 4","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/4ded51c5-f302-4300-b355-cc10c70136095204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304B472","expirationDate":"2025-12-04T18:15:32-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 4","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 20:56:09 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764881769-ad0e18c7",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 20:56:11 - HTTP Code: 200
+Response: {"id":"613bcc71-86c9-4ba3-926b-c120aefa4953","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T17:56:10-03:00","updatedAt":"2025-12-04T17:56:10-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"01bd00c0-f649-4679-bbcc-45d1a2f0d5b5","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T17:56:10.24175","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 15","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/91bb2df2-d2bb-424e-b48a-795ce51d73125204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63042B8C","expirationDate":"2025-12-04T18:16:10-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 15","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 20:57:54 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764881874-1ca0f747",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 20:57:56 - HTTP Code: 200
+Response: {"id":"56c43c5a-3a98-4935-ace8-4dea52aeb1e1","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T17:57:54-03:00","updatedAt":"2025-12-04T17:57:54-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"37d3c8c6-572b-4005-af04-4ad9d23da36e","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T17:57:54.830068","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 9","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/1717ed69-3750-45e0-987c-701cb27e51245204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63045970","expirationDate":"2025-12-04T18:17:54-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 9","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:00:14 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764882014-96a8b959",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:00:17 - HTTP Code: 200
+Response: {"id":"b0c4ce24-4662-4106-ae0a-f5e6c9cd4747","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:00:15-03:00","updatedAt":"2025-12-04T18:00:15-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"3a7a255d-7fe0-454b-ab1b-f6bde6b4165a","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T18:00:15.489489","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 90","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/edb1a715-324a-4117-8569-b9c3092de2d45204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***630462F2","expirationDate":"2025-12-04T18:20:15-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 90","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:12:00 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564255",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764882720-b31c0d81",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:12:03 - HTTP Code: 200
+Response: {"id":"38c5b77e-899e-442f-9351-00be2a083eef","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:12:01-03:00","updatedAt":"2025-12-04T18:12:01-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"7fc6b538-f3e3-49d8-a087-ec1be290278b","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564255","birthdate":null,"createdAt":"2025-12-04T18:12:01.688882","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 27","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/02199e69-77ca-48da-ae8a-75a7f9189d335204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***630432CD","expirationDate":"2025-12-04T18:32:01-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 27","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:19:25 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764883165-e7fd78d0",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:19:29 - HTTP Code: 200
+Response: {"id":"565e31f0-0be1-44c3-ae3c-5c1fb9c451b5","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:19:25-03:00","updatedAt":"2025-12-04T18:19:25-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"ca13a5dd-2384-4bb5-a4d2-e02da9c07ea0","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T18:19:25.731042","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 667","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226880014br.gov.bcb.pix2566qrcode.microcashif.com.br/pix/cb38d1b6-bfcc-4b68-a970-4089650112bb5204000053039865802BR5918SEGPAGVENDASONLINE6008SaoPaulo6107131192762070503***630411D3","expirationDate":"2025-12-04T18:39:25-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 667","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:22:37 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764883357-583e2ece",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:22:40 - HTTP Code: 200
+Response: {"id":"506a5269-96bb-4ce1-9c8c-934ae2c10fd1","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:22:37-03:00","updatedAt":"2025-12-04T18:22:37-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"f3f89ece-0c53-4da4-a6ef-3cf946270890","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T18:22:37.674614","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 40","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226880014br.gov.bcb.pix2566qrcode.microcashif.com.br/pix/c54f9dcf-a6c7-45fe-a3a3-2c989a4ca7bb5204000053039865802BR5918SEGPAGVENDASONLINE6008SaoPaulo6107131192762070503***630491F4","expirationDate":"2025-12-04T18:42:37-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 40","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:26:34 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764883594-25508dab",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:26:38 - HTTP Code: 200
+Response: {"id":"5be3178b-c063-4dfa-82c6-8b56f9afc9ce","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:26:35-03:00","updatedAt":"2025-12-04T18:26:35-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"d635ec5f-5a7c-4188-b2a4-4ad39a4e1eaf","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T18:26:35.328352","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 943","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226880014br.gov.bcb.pix2566qrcode.microcashif.com.br/pix/a81f4a05-e1b7-4bc8-b691-63aa9b1cb9425204000053039865802BR5918SEGPAGVENDASONLINE6008SaoPaulo6107131192762070503***63043610","expirationDate":"2025-12-04T18:46:35-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 943","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:28:29 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 200 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 19900,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 19900,
+    "description": "Viva Sorte - 200 t\u00edtulos",
+    "externalId": "VS-1764883709-71aa68eb",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:28:33 - HTTP Code: 200
+Response: {"id":"6ea520da-0b16-4930-985c-6ff085038718","amount":19900,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:28:30-03:00","updatedAt":"2025-12-04T18:28:30-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"30015d1b-063c-4e4a-9a4d-7dd958d0ceb4","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T18:28:30.194839","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 94","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226880014br.gov.bcb.pix2566qrcode.microcashif.com.br/pix/35993be3-3d98-4b9a-a398-aea2afa3d9285204000053039865802BR5918SEGPAGVENDASONLINE6008SaoPaulo6107131192762070503***6304491B","expirationDate":"2025-12-04T18:48:30-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 94","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 200 títulos de capitalização","unitPrice":19900,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":18309,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":1591,"netAmount":18309},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:32:03 - Payload: {
+    "customer": {
+        "name": "Cliente 151***",
+        "email": "15151596@vivasorte.temp.com",
+        "phone": "1134419209",
+        "document": {
+            "type": "CPF",
+            "number": "15151596802"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 200 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 19900,
+            "externalRef": "VS-151515"
+        }
+    ],
+    "amount": 19900,
+    "description": "Viva Sorte - 200 t\u00edtulos",
+    "externalId": "VS-1764883923-f747f210",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:32:07 - HTTP Code: 200
+Response: {"id":"a7ab6cae-98b0-40a1-b02b-d1908123ff79","amount":19900,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:32:05-03:00","updatedAt":"2025-12-04T18:32:05-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"17058713-1c6c-4575-b100-66506e0efdc6","name":"Cliente 151***","email":"15151596@vivasorte.temp.com","phone":"1134419209","birthdate":null,"createdAt":"2025-12-04T18:32:05.125791","document":{"number":"15151596802","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 381","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226880014br.gov.bcb.pix2566qrcode.microcashif.com.br/pix/88cb67ca-f01a-41ed-87df-4971b0a114fb5204000053039865802BR5918SEGPAGVENDASONLINE6008SaoPaulo6107131192762070503***63047B1C","expirationDate":"2025-12-04T18:52:05-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 381","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 200 títulos de capitalização","unitPrice":19900,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":18309,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":1591,"netAmount":18309},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:34:25 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 100 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 9900,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 9900,
+    "description": "Viva Sorte - 100 t\u00edtulos",
+    "externalId": "VS-1764884065-a465f21f",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:34:33 - HTTP Code: 200
+Response: {"id":"1ce5171b-5c2c-468f-92f0-b7c5462f0af1","amount":9900,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:34:25-03:00","updatedAt":"2025-12-04T18:34:25-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"9419f83a-aea7-4535-904a-2b9d55334adf","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T18:34:25.642527","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 42","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226880014br.gov.bcb.pix2566qrcode.microcashif.com.br/pix/dce7c1f5-4ce0-44ef-9502-eff55f46ec495204000053039865802BR5918SEGPAGVENDASONLINE6008SaoPaulo6107131192762070503***6304A41F","expirationDate":"2025-12-04T18:54:25-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 42","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 100 títulos de capitalização","unitPrice":9900,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":9008,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":892,"netAmount":9008},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:36:02 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764884162-897ac8ca",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:36:22 - HTTP Code: 200
+Response: {"id":"63247c69-2908-49d7-94ee-697e822542fb","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:36:03-03:00","updatedAt":"2025-12-04T18:36:03-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"2f47ea81-5e70-4e00-ae4d-fdac8ac828ac","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T18:36:03.305505","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 12","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226880014br.gov.bcb.pix2566qrcode.microcashif.com.br/pix/181084cd-7f35-4f53-99d1-878747e02c2f5204000053039865802BR5918SEGPAGVENDASONLINE6008SaoPaulo6107131192762070503***630460D5","expirationDate":"2025-12-04T18:56:03-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 12","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:39:16 - Payload: {
+    "customer": {
+        "name": "Cliente 264***",
+        "email": "26486443@vivasorte.temp.com",
+        "phone": "11992702944",
+        "document": {
+            "type": "CPF",
+            "number": "26486443855"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 200 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 19900,
+            "externalRef": "VS-264864"
+        }
+    ],
+    "amount": 19900,
+    "description": "Viva Sorte - 200 t\u00edtulos",
+    "externalId": "VS-1764884356-85657dbe",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:39:32 - HTTP Code: 200
+Response: {"id":"464bba80-8a37-4c69-844d-0f23d53ddea6","amount":19900,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:39:17-03:00","updatedAt":"2025-12-04T18:39:17-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"28bb8035-cf3c-4e22-b660-d1b3e2ac7183","name":"Cliente 264***","email":"26486443@vivasorte.temp.com","phone":"11992702944","birthdate":null,"createdAt":"2025-12-04T18:39:17.202277","document":{"number":"26486443855","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 52","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226880014br.gov.bcb.pix2566qrcode.microcashif.com.br/pix/7b701c85-5e42-4ca3-8057-0e202de279ea5204000053039865802BR5918SEGPAGVENDASONLINE6008SaoPaulo6107131192762070503***63045792","expirationDate":"2025-12-04T18:59:17-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 52","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 200 títulos de capitalização","unitPrice":19900,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":18309,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":1591,"netAmount":18309},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:44:23 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764884663-99a15630",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:44:26 - HTTP Code: 200
+Response: {"id":"7a6173f8-9c56-4f54-a55a-eb4c155c5d1a","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:44:24-03:00","updatedAt":"2025-12-04T18:44:24-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"f7f564d7-078f-43f3-aa76-5943212d93c5","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T18:44:24.360937","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 49","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/8592b73e-eba6-4c4f-b625-dd6b40d363055204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304501F","expirationDate":"2025-12-04T19:04:24-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 49","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:51:05 - Payload: {
+    "customer": {
+        "name": "Cliente 875***",
+        "email": "87514656@vivasorte.temp.com",
+        "phone": "86988975376",
+        "document": {
+            "type": "CPF",
+            "number": "87514656391"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 200 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 19900,
+            "externalRef": "VS-875146"
+        }
+    ],
+    "amount": 19900,
+    "description": "Viva Sorte - 200 t\u00edtulos",
+    "externalId": "VS-1764885065-69bbc823",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:51:08 - HTTP Code: 200
+Response: {"id":"44b6584f-7bf7-469a-837d-3d0847a33a16","amount":19900,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:51:06-03:00","updatedAt":"2025-12-04T18:51:06-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"ec0258ee-5f65-41ab-b495-5f25e3755533","name":"Cliente 875***","email":"87514656@vivasorte.temp.com","phone":"86988975376","birthdate":null,"createdAt":"2025-12-04T18:51:05.981687","document":{"number":"87514656391","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 69","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/8005319b-a061-4e56-b79c-56ca5c73463b5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***630417A9","expirationDate":"2025-12-04T19:11:06-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 69","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 200 títulos de capitalização","unitPrice":19900,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":18309,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":1591,"netAmount":18309},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:51:50 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 200 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 19900,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 19900,
+    "description": "Viva Sorte - 200 t\u00edtulos",
+    "externalId": "VS-1764885110-e9705e02",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:51:52 - HTTP Code: 200
+Response: {"id":"9c6b5f51-1f80-48b0-9e90-4b9a8712abd2","amount":19900,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:51:51-03:00","updatedAt":"2025-12-04T18:51:51-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"a0ea2029-f5a6-4b39-a585-6bf273f97f52","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T18:51:51.082171","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 7","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/1690e71d-f739-48b3-a42b-5deda67e75bf5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63047465","expirationDate":"2025-12-04T19:11:51-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 7","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 200 títulos de capitalização","unitPrice":19900,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":18309,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":1591,"netAmount":18309},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:53:14 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 100 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 9900,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 9900,
+    "description": "Viva Sorte - 100 t\u00edtulos",
+    "externalId": "VS-1764885194-3d42273c",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:53:17 - HTTP Code: 200
+Response: {"id":"33b9d558-4c6e-45f0-9ad7-347288e737b4","amount":9900,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:53:15-03:00","updatedAt":"2025-12-04T18:53:15-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"2a76f7d8-fd8d-46a5-a5f0-71c14c74cb4a","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T18:53:15.51753","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 16","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/1e5ea93a-027b-499b-b7f1-07038d4498f05204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304B773","expirationDate":"2025-12-04T19:13:15-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 16","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 100 títulos de capitalização","unitPrice":9900,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":9008,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":892,"netAmount":9008},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:55:54 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764885354-dbb532eb",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:55:57 - HTTP Code: 200
+Response: {"id":"0d0e819c-4963-4f29-9899-ed58e1418022","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:55:55-03:00","updatedAt":"2025-12-04T18:55:55-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"70e19d67-502d-41bc-9ee0-d8fa2f03e231","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T18:55:55.194272","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 162","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/e6051526-0189-4368-8820-3a156936952a5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***630413FA","expirationDate":"2025-12-04T19:15:55-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 162","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:56:24 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 200 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 19900,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 19900,
+    "description": "Viva Sorte - 200 t\u00edtulos",
+    "externalId": "VS-1764885384-01d6f069",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:56:27 - HTTP Code: 200
+Response: {"id":"d08ec002-5524-4ce8-8cf9-cc598d069517","amount":19900,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:56:25-03:00","updatedAt":"2025-12-04T18:56:25-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"28060e00-2ca2-4aca-95e0-4c5ce21f9c2d","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T18:56:25.421213","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 855","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/1c12ed01-338f-4a2e-b7df-9700fa92e07e5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304FE7C","expirationDate":"2025-12-04T19:16:25-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 855","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 200 títulos de capitalização","unitPrice":19900,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":18309,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":1591,"netAmount":18309},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 21:59:26 - Payload: {
+    "customer": {
+        "name": "Cliente 151***",
+        "email": "15151596@vivasorte.temp.com",
+        "phone": "86988975376",
+        "document": {
+            "type": "CPF",
+            "number": "15151596802"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-151515"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764885566-1a252455",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 21:59:28 - HTTP Code: 200
+Response: {"id":"b19d25f5-03dd-4a8f-a4be-d21899130066","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T18:59:27-03:00","updatedAt":"2025-12-04T18:59:27-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"9bff8a79-4de6-49f3-82a7-71a7a6ad7644","name":"Cliente 151***","email":"15151596@vivasorte.temp.com","phone":"86988975376","birthdate":null,"createdAt":"2025-12-04T18:59:27.148822","document":{"number":"15151596802","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 4","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/1282f880-84d5-4847-addf-33c89d39b17e5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63049481","expirationDate":"2025-12-04T19:19:27-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 4","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 22:09:52 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764886192-ea092d49",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 22:09:55 - HTTP Code: 200
+Response: {"id":"9262d321-885e-4737-87ba-0643f12d4433","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T19:09:53-03:00","updatedAt":"2025-12-04T19:09:53-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"fdb22752-6614-41f9-ac68-e4e6f1730b36","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T19:09:53.334141","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 84","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/ad678a1f-f9ea-4120-be43-5f4aabb0c2325204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304587B","expirationDate":"2025-12-04T19:29:53-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 84","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 22:19:22 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764886762-4f31f07e",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 22:19:24 - HTTP Code: 200
+Response: {"id":"265f4138-eb62-43ec-a08c-416a757220ed","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T19:19:23-03:00","updatedAt":"2025-12-04T19:19:23-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"c4d933a9-5a3f-4699-8d3f-0549d76ac0d1","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T19:19:23.264668","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 4","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/3bdfca20-b1b5-41d0-8741-89bb1c96ea615204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304ED9F","expirationDate":"2025-12-04T19:39:23-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 4","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 22:33:04 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 20 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 1985,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 1985,
+    "description": "Viva Sorte - 20 t\u00edtulos",
+    "externalId": "VS-1764887584-cb7d101a",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 22:33:07 - HTTP Code: 200
+Response: {"id":"ab9f5bd8-da83-41d3-8bf6-82640faf427b","amount":1985,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T19:33:05-03:00","updatedAt":"2025-12-04T19:33:05-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"6ab27ee2-cb87-428e-a9a5-5cc437efa0d9","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T19:33:05.629182","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 71","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/21614815-ad1d-4d96-94ae-45d9e4f46fcf5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***630485D0","expirationDate":"2025-12-04T19:53:05-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 71","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 20 títulos de capitalização","unitPrice":1985,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":1646,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":339,"netAmount":1646},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 22:34:01 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 10 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 990,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 990,
+    "description": "Viva Sorte - 10 t\u00edtulos",
+    "externalId": "VS-1764887641-e12d52d3",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 22:34:03 - HTTP Code: 200
+Response: {"id":"2dbc1933-3915-4efa-97a3-2088b154e828","amount":990,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T19:34:02-03:00","updatedAt":"2025-12-04T19:34:02-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"b4ca2580-8e4c-4eb8-aae8-b3ec5264c5a8","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T19:34:02.116005","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 96","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/f82e6bb6-030f-4e8f-aabc-7d41083fb95f5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63049037","expirationDate":"2025-12-04T19:54:02-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 96","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 10 títulos de capitalização","unitPrice":990,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":721,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":269,"netAmount":721},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 22:45:07 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764888307-2cc1c2ca",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 22:45:10 - HTTP Code: 200
+Response: {"id":"8c5d9f9c-695a-4cf8-bad7-addc2d29d691","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T19:45:09-03:00","updatedAt":"2025-12-04T19:45:09-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"fc932cf4-a007-4685-85f6-78ab55dd6d01","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T19:45:09.152847","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 84","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/6d5c1b12-27ba-4fcc-9fd6-34e6c7a0c6845204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304589D","expirationDate":"2025-12-04T20:05:09-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 84","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 23:05:58 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 10 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 990,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 990,
+    "description": "Viva Sorte - 10 t\u00edtulos",
+    "externalId": "VS-1764889558-d9a71b6e",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 23:06:01 - HTTP Code: 200
+Response: {"id":"9b24ec31-a926-4841-8d78-48e8a5170d9e","amount":990,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T20:05:59-03:00","updatedAt":"2025-12-04T20:05:59-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"a5a908e1-29f7-47b8-954e-a16e3f6ea5a8","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T20:05:59.377853","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 57","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/0c4da569-9e90-4502-a2ab-2a3f4517bf3b5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304780A","expirationDate":"2025-12-04T20:25:59-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 57","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 10 títulos de capitalização","unitPrice":990,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":721,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":269,"netAmount":721},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 23:12:39 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764889959-a6c3e75c",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 23:12:42 - HTTP Code: 200
+Response: {"id":"61b3bfe1-3a13-4735-8b24-49608fc9b4c6","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T20:12:40-03:00","updatedAt":"2025-12-04T20:12:40-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"bb910468-0cda-482b-b465-d735d1462a34","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T20:12:40.395085","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 24","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/1cd357ba-9869-42e3-801b-935409cda1755204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***630473F4","expirationDate":"2025-12-04T20:32:40-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 24","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 23:27:58 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764890878-66e32af5",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 23:28:01 - HTTP Code: 200
+Response: {"id":"1bb0c19a-a7a5-4452-9b82-135043174eb9","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T20:27:59-03:00","updatedAt":"2025-12-04T20:27:59-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"1a612a3d-23e2-452f-9731-d03460de346f","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T20:27:59.355462","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 8","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/4ff41bf6-e54b-4e4a-a575-225c04f478665204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304BA44","expirationDate":"2025-12-04T20:47:59-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 8","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 23:35:18 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764891318-1e0b28ca",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 23:35:20 - HTTP Code: 200
+Response: {"id":"c04e5041-0bc5-4154-a3be-c85aa6eba0a4","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T20:35:18-03:00","updatedAt":"2025-12-04T20:35:18-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"ab0835f9-61a8-4622-b2e8-49210d322fb1","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T20:35:18.812913","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 16","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/330742ac-36aa-4f9d-a115-0f762393198b5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304B510","expirationDate":"2025-12-04T20:55:18-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 16","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 23:42:55 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764891775-8fee808f",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 23:42:58 - HTTP Code: 200
+Response: {"id":"02551187-0677-425c-b317-b6fe63b683f6","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T20:42:56-03:00","updatedAt":"2025-12-04T20:42:56-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"2031b346-b05c-45af-84e6-59f78f53b283","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T20:42:56.611641","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 41","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/d2a7bad4-abf6-436a-a364-870e677fc06f5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63044A7A","expirationDate":"2025-12-04T21:02:56-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 41","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-04 23:49:33 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764892173-ea98653f",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-04 23:49:35 - HTTP Code: 200
+Response: {"id":"840118eb-e767-4822-a2e7-0db1d8ae0101","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T20:49:34-03:00","updatedAt":"2025-12-04T20:49:34-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"deedb8eb-986e-4766-9076-fa0cc39ea100","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T20:49:34.041813","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 186","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/25865228-746e-449b-8b65-9a615eaa199c5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***630416CF","expirationDate":"2025-12-04T21:09:34-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 186","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-05 00:04:30 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764893070-da97d3f5",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-05 00:04:32 - HTTP Code: 200
+Response: {"id":"5c920750-3809-42e2-9691-8d042e2fcb7b","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T21:04:30-03:00","updatedAt":"2025-12-04T21:04:30-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"e4724e12-ff82-47b3-b234-9d954fd6677a","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T21:04:30.911034","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 61","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/b49a917d-24a5-41b8-9772-bb5e509c70775204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304390B","expirationDate":"2025-12-04T21:24:30-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 61","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-05 00:33:40 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764894820-a85e25c7",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-05 00:33:43 - HTTP Code: 200
+Response: {"id":"bc42295d-ff1d-47a0-b922-b276805f2c4f","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T21:33:41-03:00","updatedAt":"2025-12-04T21:33:41-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"f422829b-e253-40e3-8e6f-36be7dfc1471","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T21:33:41.808393","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 41","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/671e51d6-3b0b-42a5-9c37-94bbda4533aa5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63041FE3","expirationDate":"2025-12-04T21:53:41-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Lote 41","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-05 00:38:03 - Payload: {
+    "customer": {
+        "name": "Cliente 237***",
+        "email": "23723622@vivasorte.temp.com",
+        "phone": "11961554221",
+        "document": {
+            "type": "CPF",
+            "number": "23723622836"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-237236"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764895083-8d79ac57",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-05 00:38:06 - HTTP Code: 200
+Response: {"id":"96f8e36f-6a72-4c19-9916-4d9e851baf67","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T21:38:04-03:00","updatedAt":"2025-12-04T21:38:04-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"e4c7dad9-d2c7-418c-8ef0-c256de56f111","name":"Cliente 237***","email":"23723622@vivasorte.temp.com","phone":"11961554221","birthdate":null,"createdAt":"2025-12-04T21:38:04.583495","document":{"number":"23723622836","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 419","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/b8fdf977-9de6-45f5-89c8-0b7a5374d00c5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304A435","expirationDate":"2025-12-04T21:58:04-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 419","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-05 00:43:21 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764895401-aae66899",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-05 00:43:23 - HTTP Code: 200
+Response: {"id":"548bc624-da7e-48a8-bd39-419f160de67d","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T21:43:22-03:00","updatedAt":"2025-12-04T21:43:22-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"a64b62de-54e2-4d7a-876f-7d62306b6ccc","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T21:43:22.022982","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 21","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/b61a20c5-0698-4ae7-8963-1db59be167da5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63046398","expirationDate":"2025-12-04T22:03:22-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Sobrado 21","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-05 00:58:40 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764896320-7e405fb1",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-05 00:58:44 - HTTP Code: 200
+Response: {"id":"4a5fdb02-d10f-4fde-8fdb-68563e1b63c4","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T21:58:41-03:00","updatedAt":"2025-12-04T21:58:41-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"d3207a3a-e159-481f-989b-4135d9fcb1bc","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T21:58:41.447446","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 9","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/638a2d7b-824f-4b91-b04f-4a6df907b4855204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304BE6E","expirationDate":"2025-12-04T22:18:41-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 9","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-05 01:23:42 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764897822-74c26633",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-05 01:23:45 - HTTP Code: 200
+Response: {"id":"a8e62307-9c72-4901-9275-d997ac6768e1","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T22:23:43-03:00","updatedAt":"2025-12-04T22:23:43-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"31204213-737c-480f-aca5-14c43578a3f9","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T22:23:43.303619","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 62","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/d63c2283-4b22-4812-9896-17dfe44a18b85204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304F709","expirationDate":"2025-12-04T22:43:43-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 62","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-05 01:25:34 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764897934-022366d2",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-05 01:25:36 - HTTP Code: 200
+Response: {"id":"067f4fc8-0498-4ad5-934b-9b3f01da8a65","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T22:25:34-03:00","updatedAt":"2025-12-04T22:25:34-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"a1054e85-a693-49a4-90a9-033b315e5ae1","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T22:25:34.914142","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 77","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/1f5f959e-5af5-4b85-8b78-5431906a22c65204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63047142","expirationDate":"2025-12-04T22:45:34-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Quadra 77","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-05 01:50:39 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764899439-b0769c55",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-05 01:50:42 - HTTP Code: 200
+Response: {"id":"3061f7d5-054b-43f2-942c-9104c3402b89","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T22:50:40-03:00","updatedAt":"2025-12-04T22:50:40-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"20b2cc88-5c20-41af-8cf3-e2a386fea32c","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T22:50:40.608331","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 897","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/2555203c-bcde-49aa-a78d-a19856dc794d5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304F4EC","expirationDate":"2025-12-04T23:10:40-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 897","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-05 02:23:29 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 10 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 990,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 990,
+    "description": "Viva Sorte - 10 t\u00edtulos",
+    "externalId": "VS-1764901409-af7dd8bd",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-05 02:23:32 - HTTP Code: 200
+Response: {"id":"3acaca22-e960-403e-8c49-a64018be71c9","amount":990,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T23:23:30-03:00","updatedAt":"2025-12-04T23:23:30-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"506238e2-f540-4183-b4cc-4f9f76535130","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T23:23:30.506617","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 675","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/2ec6f738-2944-4763-b0b9-e92fa8b8138a5204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304B47D","expirationDate":"2025-12-04T23:43:30-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 675","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 10 títulos de capitalização","unitPrice":990,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":721,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":269,"netAmount":721},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-05 02:26:10 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764901570-0a0bfe96",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-05 02:26:14 - HTTP Code: 200
+Response: {"id":"e763709b-9db9-4528-ace7-9af1aa1fe5b9","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T23:26:12-03:00","updatedAt":"2025-12-04T23:26:12-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"17feb006-2470-4297-9b2f-94cd63a9f5af","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T23:26:12.20104","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 961","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/95ce479a-ecae-4ba6-925c-d87d5bb01d135204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***6304FE0F","expirationDate":"2025-12-04T23:46:12-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Apto. 961","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
+2025-12-05 02:28:07 - Payload: {
+    "customer": {
+        "name": "Cliente 063***",
+        "email": "06350891@vivasorte.temp.com",
+        "phone": "11961564240",
+        "document": {
+            "type": "CPF",
+            "number": "06350891732"
+        }
+    },
+    "shipping": {
+        "address": {
+            "street": "N\u00e3o informado",
+            "streetNumber": "S\/N",
+            "complement": "",
+            "neighborhood": "Centro",
+            "city": "S\u00e3o Paulo",
+            "state": "SP",
+            "zipCode": "01000000",
+            "country": "BR"
+        }
+    },
+    "paymentMethod": "PIX",
+    "pix": {
+        "expiresInDays": 1
+    },
+    "items": [
+        {
+            "title": "Viva Sorte - 6 t\u00edtulos de capitaliza\u00e7\u00e3o",
+            "quantity": 1,
+            "unitPrice": 594,
+            "externalRef": "VS-063508"
+        }
+    ],
+    "amount": 594,
+    "description": "Viva Sorte - 6 t\u00edtulos",
+    "externalId": "VS-1764901687-ab3157e6",
+    "postbackUrl": "https:\/\/v1v4s0rt3.online\/api\/webhook.php"
+}
+2025-12-05 02:28:10 - HTTP Code: 200
+Response: {"id":"df979d68-7275-41c9-8851-92f54bad5347","amount":594,"paidAmount":0,"refundedAmount":0,"companyId":"18fc3dff-e99c-4232-a1ef-3ac787935cc1","installments":1,"paymentMethod":"PIX","status":"waiting_payment","postbackUrl":"https://v1v4s0rt3.online/api/webhook.php","metadata":{},"traceable":true,"createdAt":"2025-12-04T23:28:08-03:00","updatedAt":"2025-12-04T23:28:08-03:00","paidAt":null,"ip":"","authorizationCode":null,"basePrice":null,"interestRate":null,"origin":null,"customer":{"id":"63ca5dff-4e3f-4169-a2fc-a566185f0723","name":"Cliente 063***","email":"06350891@vivasorte.temp.com","phone":"11961564240","birthdate":null,"createdAt":"2025-12-04T23:28:08.320997","document":{"number":"06350891732","type":"cpf"},"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 7","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"card":null,"boleto":null,"pix":{"qrcode":"00020101021226870014br.gov.bcb.pix2565qrcode.santsbank.com/dynamic/37230287-420c-4445-8c00-db5a9d41a3395204000053039865802BR5914PAGAFACIL LTDA6009Sao Paulo62070503***63044CCB","expirationDate":"2025-12-04T23:48:08-03:00","end2EndId":null,"receiptUrl":null},"shipping":{"fee":0,"address":{"street":"Não informado","streetNumber":"S/N","complement":"Casa 7","zipCode":"01000000","neighborhood":"Centro","city":"São Paulo","state":"SP","country":"BR"}},"refusedReason":{"acquirerCode":null,"description":"","antifraud":false},"items":[{"title":"Viva Sorte - 6 títulos de capitalização","unitPrice":594,"quantity":1}],"splits":[{"recipientId":"cb3acf8e-fb86-4619-9171-6aafc451d1ab","netAmount":352,"chargeProcessingFee":true}],"refunds":[],"delivery":null,"payer":null,"fee":{"fixedAmount":2,"spreadPercentage":6.99,"estimatedFee":242,"netAmount":352},"fingerPrint":null,"paymentlink_id":null}
+CURL Error: 
+
